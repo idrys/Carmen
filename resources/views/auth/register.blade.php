@@ -38,6 +38,19 @@
                             </div>
                         </div>
 
+                        <div class="form-group">
+                            <label for="email" class="col-md-4 control-label">Płeć</label>
+                            <div class="col-md-6">
+
+                              <select class="form-control" id="sex" type="text" class="form-control" name="sex">
+                                <option value='m'>Mężczyzna</option>
+                                <option value='f'>Kobieta</option>
+                              </select>
+
+                            </div>
+                        </div>
+
+
                         <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                             <label for="password" class="col-md-4 control-label">Password</label>
 
